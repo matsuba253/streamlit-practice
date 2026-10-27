@@ -1,0 +1,12 @@
+
+
+{
+    "base_card": {
+        "rank": 5,
+        "suit": "hearts"
+    },
+    "result_cards":{
+        "rank": 3,
+        "suit": "spades"
+    }
+}
