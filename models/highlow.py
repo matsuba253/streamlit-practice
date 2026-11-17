@@ -2,7 +2,7 @@
 import random
 
 
-def draw_card():
+def draw_cards():
     suits = ("spades", "hearts", "diamonds", "clubs")
     deck = [
         {"suit": suit, "rank": rank}
