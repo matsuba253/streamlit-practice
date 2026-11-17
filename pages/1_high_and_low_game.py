@@ -1,8 +1,5 @@
 
-import streamlit as st
-import json
-from pathlib import Path
-
+import streamlit as st  # type: ignore
 from models.highlow import draw_cards, judge
 
 
