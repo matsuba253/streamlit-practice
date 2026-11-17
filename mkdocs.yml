@@ -1,7 +1,7 @@
-site_name: <your app name >
+site_name: Streamlit Practice
 site_url: https://matsuba253.github.io/streamlit-practice/
 theme:
 name: mkdocs
 nav:
 - Home: index.md
-repo_url: https://github.com/matsuba253/streamlit-practice/
+repo_url:https://github.com/matsuba253/streamlit-practice
