@@ -16,7 +16,12 @@ st.markdown("""
     color: #30264a;
 }
 
-h1, h2, h3, p, label {
+div[data-testid="stAlert"] {
+    background-color: white !important;
+    border-radius: 12px;
+}
+
+div[data-testid="stAlert"] p {
     color: #30264a !important;
 }
 
