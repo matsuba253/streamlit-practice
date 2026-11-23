@@ -3,11 +3,11 @@ site_url: https://matsuba253.github.io/streamlit-practice/
 theme:
   name: material
 
-palette:
-  primary: "blue"
-  accent: "light blue"
+  palette:
+    primary: "blue"
+    accent: "light blue"
 
-feature:
+  features:
   - navigation.tabs
   - navigation.top
   - navigation.footer
@@ -15,15 +15,13 @@ feature:
   - search.suggest
   - content.code.copy
 
-font:
-  text: Roboto
-  code: Roboto Mono
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 plugins:
   - search
-  - mike:
-      alias_type: branch
-      alias_name: latest
+
 
 markdown_extensions:
   - admonition
