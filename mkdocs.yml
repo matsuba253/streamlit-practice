@@ -2,6 +2,36 @@ site_name: Streamlit Practice
 site_url: https://matsuba253.github.io/streamlit-practice/
 theme:
   name: material
+
+palette:
+  primary: "blue"
+  accent: "light blue"
+
+feature:
+  - navigation.tabs
+  - navigation.top
+  - navigation.footer
+  - search.highlight
+  - search.suggest
+  - content.code.copy
+
+font:
+  text: Roboto
+  code: Roboto Mono
+
+plugins:
+  - search
+  - mike:
+      alias_type: branch
+      alias_name: latest
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  
 nav:
 - Home: index.md
 repo_url: https://github.com/matsuba253/streamlit-practice
