@@ -2,6 +2,7 @@ site_name: Streamlit Practice
 site_url: https://matsuba253.github.io/streamlit-practice/
 theme:
   name: material
+  language: ja
 
   palette:
     primary: "blue"
