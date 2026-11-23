@@ -1,2 +1,3 @@
 # streamlit-practice
-Streamlitの練習用
+
+学校の課題や提出物を管理するためのアプリです。
