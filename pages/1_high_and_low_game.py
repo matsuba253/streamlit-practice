@@ -32,6 +32,11 @@ if "choice" not in st.session_state:
             st.session_state.choice = "High"
             st.rerun()
 
+    with col2:
+        if st.button("Low", use_container_width=True):
+            st.session_state.choice = "Low"
+            st.rerun()
+
 #　選択した後
 else:
 
