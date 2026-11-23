@@ -55,6 +55,19 @@ div[data-testid="stMetric"] {
     border-radius: 15px;
     box-shadow: 0 3px 10px #d9d0eb;
 }
+
+/* 警告メッセージを白くする */
+div[data-testid="stAlert"],
+div[data-testid="stAlert"] > div {
+    background: white !important;
+    background-color: white !important;
+}
+
+div[data-testid="stAlert"] p,
+div[data-testid="stAlert"] span {
+    color: #30264a !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
