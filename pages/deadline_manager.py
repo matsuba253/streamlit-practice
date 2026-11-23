@@ -68,6 +68,23 @@ div[data-testid="stAlert"] span {
     color: #30264a !important;
 }
 
+/* 文字を濃くして読みやすくする */
+.stMarkdown,
+.stMarkdown p,
+[data-testid="stMetricLabel"],
+[data-testid="stMetricValue"],
+[data-testid="stCaptionContainer"],
+.stCheckbox label,
+.stTextInput label,
+.stDateInput label {
+    color: #30264a !important;
+}
+
+/* 課題名も濃くする */
+h1, h2, h3 {
+    color: #30264a !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
